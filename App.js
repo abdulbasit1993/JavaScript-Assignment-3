@@ -32,3 +32,27 @@ function triangleArea(a, b, c) {
     console.log(area);
 }
 triangleArea(2, 4, 3.5);
+
+// Task # 4
+var sub1marks = +prompt("Enter marks obtained in First Subject: ");
+var sub2marks = +prompt("Enter marks obtained in Second Subject: ");
+var sub3marks = +prompt("Enter marks obtained in Third Subject: ");
+var grandtotalMarks = 350;
+
+function averageMarks(x, y, z) {
+    var avg = (x + y + z) / 3;
+    return avg;
+}
+
+function percentofMarks(m1, m2, m3) {
+    var perc = (m1 + m2 + m3) / grandtotalMarks * 100;
+    return perc;
+}
+
+function mainFunc() {
+    var averMarks = averageMarks(sub1marks, sub2marks, sub3marks);
+    alert(averMarks);
+
+    var percMarks = percentofMarks(sub1marks, sub2marks, sub3marks);
+    alert(percMarks);
+}
