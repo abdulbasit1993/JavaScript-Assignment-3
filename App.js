@@ -179,3 +179,26 @@
 // function thanksAlert() {
 //     alert("Thanks for purchasing a phone from us");
 // }
+
+// Task # 3
+// function deleteRow0(){
+//     document.getElementById("row0").remove();
+// }
+// function deleteRow1(){
+//     document.getElementById("row1").remove();
+// }
+// function deleteRow2(){
+//     document.getElementById("row2").remove();
+// }
+// function deleteRow3(){
+//     document.getElementById("row3").remove();
+// }
+
+// Task # 4
+// function changePic() {
+//     document.getElementById("bulboff").src = "images/lightbulb-on.png";
+// }
+
+// function changePic2() {
+//     document.getElementById("bulboff").src = "images/lightbulb-off.png";
+// }
