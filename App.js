@@ -202,3 +202,15 @@
 // function changePic2() {
 //     document.getElementById("bulboff").src = "images/lightbulb-off.png";
 // }
+
+// Task # 5
+var count = 0;
+function inCounter() {
+    count++;
+    document.getElementById("counter").innerHTML = count;
+}
+
+function deCounter() {
+    count--;
+    document.getElementById("counter").innerHTML = count;
+}
